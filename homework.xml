@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "1.xsl"?>
+<homework desc="Для выполнения задания необходимо и достаточно предоставить 3 xsl файла с преобразованиями для каждого задания, по одному на каждое задание
+                Обязательно указывайте в названии файла - к какому заданию он относится.
+                Вопросы по ДЗ принимаются на почту a.anatskiy@hh.ru, в слак @a.anatskiy" due-to-date="20.03.2017">
+    <task id="1" desc="В результирующем HTML документе представлены последующие задачи (task)
+                        с указанием id, описания(desc) и исходных данных в виде XML"/>
+    <task id="2" desc="В результирующем XML документе покупки отсортированы по убыванию цены">
+        <cart>
+            <purchase id="1">
+                <customer id="123"/>
+                <product id="341">
+                    <cost>9.99</cost>
+                    <amount>5</amount>
+                </product>
+            </purchase>
+            <purchase id="2">
+                <customer id="123"/>
+                <product id="345">
+                    <cost>14.00</cost>
+                    <amount>2</amount>
+                </product>
+            </purchase>
+            <purchase id="3">
+                <customer id="321"/>
+                <product id="346">
+                    <cost>23.12</cost>
+                    <amount>5</amount>
+                </product>
+            </purchase>
+            <purchase id="4">
+                <customer id="322"/>
+                <product id="346">
+                    <cost>23.12</cost>
+                    <amount>5</amount>
+                </product>
+            </purchase>
+            <purchase id="5">
+                <customer id="567"/>
+                <product id="345">
+                    <cost>7.00</cost>
+                    <amount>1</amount>
+                </product>
+            </purchase>
+        </cart>
+    </task>
+    <task id="3" desc="В результирующем XML документе покупки (purchase)
+                        сгруппированы по покупателю (customer)
+                        Для каждого покупателя покупки отсортировать по возростанию цены
+                        и указано количество покупок.">
+        <cart>
+            <purchase id="1">
+                <customer id="123"/>
+                <product id="341">
+                    <cost>9.99</cost>
+                    <amount>5</amount>
+                </product>
+            </purchase>
+            <purchase id="2">
+                <customer id="123"/>
+                <product id="345">
+                    <cost>14.00</cost>
+                    <amount>2</amount>
+                </product>
+            </purchase>
+            <purchase id="3">
+                <customer id="321"/>
+                <product id="346">
+                    <cost>23.12</cost>
+                    <amount>5</amount>
+                </product>
+            </purchase>
+            <purchase id="4">
+                <customer id="322"/>
+                <product id="346">
+                    <cost>23.12</cost>
+                    <amount>5</amount>
+                </product>
+            </purchase>
+            <purchase id="5">
+                <customer id="567"/>
+                <product id="345">
+                    <cost>7.00</cost>
+                    <amount>1</amount>
+                </product>
+            </purchase>
+        </cart>
+    </task>
+</homework>
